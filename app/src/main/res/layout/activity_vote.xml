@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradient"
+    tools:context="com.example.eventvoting.VoteActivity">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/e_name"
+             android:layout_marginTop="20dp"
+             android:textSize="35sp"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:textSize="25sp"
+             android:id="@+id/res_u"
+             android:onClick="btn_res_uesr"
+             android:textAlignment="center"
+             android:visibility="invisible"
+             android:text="TO VIEW RESULT"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="20dp"
+             android:layout_height="wrap_content"
+             android:onClick="btn_one"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p1"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:onClick="btn_two"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p2"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_height="wrap_content"
+             android:onClick="btn_three"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p3"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:onClick="btn_four"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p4"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_height="wrap_content"
+             android:onClick="btn_five"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p5"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_height="wrap_content"
+             android:onClick="btn_six"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p6"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:onClick="btn_seven"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p7"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_height="wrap_content"
+             android:onClick="btn_eight"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p8"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:onClick="btn_nine"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p9"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="70dp"
+             android:layout_height="wrap_content"
+             android:onClick="btn_ten"
+             android:background="@drawable/btn_col"
+             android:id="@+id/bt_p10"/>
+
+     </LinearLayout>
+</ScrollView>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/design_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffc0cb"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="70dp"
+        app:elevation="4dp"
+
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:hint="Comment"
+            android:textColorHint="#000" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/comment_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/comment"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="21dp"
+            android:onClick="usercomment"
+            android:layout_marginRight="21dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@android:drawable/ic_menu_send" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comment"
+            android:id="@+id/cmt">
+
+        </ListView>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

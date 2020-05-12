@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="@drawable/new_login_gradient"
+    tools:ignore="MergeRootFrame"
+    tools:context=".User_Login_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="0dp"
+                android:src="@mipmap/b" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Event Voting"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/edt_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Username"
+                android:background="@android:color/transparent"
+                android:textColorHint="#fff"
+                android:minLines="1"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <EditText
+                android:id="@+id/edt_pass_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="........."
+                android:inputType="textPassword"
+                android:minLines="1"
+
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+
+            <Button
+                android:id="@+id/btn_user_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_col"
+                android:text="Log in"
+                android:textColor="#f16f7d"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:clickable="true"
+                android:onClick="logbtn"
+                android:layout_marginTop="24dp"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/usr_reg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="No account yet?Create one"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/link_user_for_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Forget your Password?"
+                android:gravity="center"
+                android:onClick="btn_user_forget"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:layout_marginTop="0dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

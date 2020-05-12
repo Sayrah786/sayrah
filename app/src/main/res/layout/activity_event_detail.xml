@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradient"
+    tools:context="com.example.eventvoting.EventDetail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/evt_nam"
+        android:text="taxt"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa1"
+        android:layout_marginTop="60dp"
+
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa2"
+        android:layout_marginTop="100dp"
+
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa3"
+        android:layout_marginTop="140dp"
+
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa4"
+        android:layout_marginTop="180dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa5"
+        android:layout_marginTop="220dp"
+        android:textSize="30sp"
+/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa6"
+        android:layout_marginTop="260dp"
+
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa7"
+        android:layout_marginTop="300dp"
+
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa8"
+        android:layout_marginTop="340dp"
+
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa9"
+        android:layout_marginTop="380dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paa10"
+        android:layout_marginTop="420dp"
+        android:textSize="30sp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/adds"
+        android:onClick="add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mod"
+        android:visibility="invisible"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="240dp"
+        android:text="Modify Event"
+        android:textSize="14sp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mod_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="invisible"
+        android:layout_marginTop="360dp"
+        android:onClick="mod_btn"
+        app:srcCompat="@android:drawable/ic_menu_upload" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/del"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="250dp"
+        android:text="Delete Event"
+        android:visibility="invisible"
+
+        android:textSize="14sp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/del_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:onClick="del_btn"
+        android:layout_marginTop="270dp"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/ic_delete" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/res"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="270dp"
+        android:text="Result"
+        android:visibility="invisible"
+
+        android:textSize="14sp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/res_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="invisible"
+        android:onClick="res_btn"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@android:drawable/ic_menu_crop" />
+</android.support.design.widget.CoordinatorLayout>

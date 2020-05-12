@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/new_login_gradient"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.eventvoting.Add_ParticActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Add Participant"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/title_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Title"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/addp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/fab_margin"
+                android:onClick="addparti"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <EditText
+                android:id="@+id/part1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant1"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/part2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant2"
+                android:onClick="ed2"
+                android:textColorHint="#fff" />
+            <EditText
+                android:id="@+id/part3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant3"
+                android:onClick="ed3"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/part4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant4"
+                android:onClick="ed4"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/part5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant5"
+                android:onClick="ed5"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/part6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant6"
+                android:onClick="ed6"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/part7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant7"
+                android:onClick="ed7"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/part8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant8"
+                android:onClick="ed8"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/part9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant9"
+                android:onClick="ed9"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/part10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Participant10"
+                android:textColorHint="#fff"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

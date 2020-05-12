@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradient"
+    android:layout_height="match_parent"
+    tools:context="com.example.eventvoting.ModifyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modify Event"
+        android:textSize="30sp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modify"
+                android:onClick="btn_update"
+                android:background="@drawable/btn_col"
+                />
+
+            <TextView
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ed2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed4"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed5"/>
+
+            <EditText
+                android:id="@+id/ed6"
+                android:layout_width="match_parent"
+                android:onClick="b2"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:onClick="b3"
+                android:id="@+id/ed7"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bb4"
+        android:id="@+id/ed8"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="b5"
+        android:id="@+id/ed9"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="b6"
+                android:id="@+id/ed10"/>
+
+            <EditText
+                android:id="@+id/ed11"
+                android:layout_width="match_parent"
+                android:onClick="b7"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="b8"
+                android:id="@+id/ed12"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="b9"
+                android:id="@+id/ed13"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed14"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

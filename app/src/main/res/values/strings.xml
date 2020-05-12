@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Event Voting</string>
+
+    <string name="prompt">Choose a Securty quetion </string>
+    <string name="title_activity_nav_">Nav_Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Exit</string>
+</resources>

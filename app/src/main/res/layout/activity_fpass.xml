@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradient"
+    android:layout_height="match_parent"
+    tools:context=".FPassActivity">
+
+    <TextView
+        android:id="@+id/link_for_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Your Security Question"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:clickable="true"
+
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/edt_pass_sa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Securty Answer"
+        android:background="@android:color/transparent"
+        android:textColorHint="#fff"
+        android:minLines="1"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+
+    <Button
+        android:id="@+id/btn_fpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_col"
+        android:text="Check"
+        android:textColor="#f16f7d"
+        android:textAllCaps="false"
+        android:onClick="btn_for"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
